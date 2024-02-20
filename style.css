@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 12px;
+}
+.containerbutton{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    padding: 10px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    margin: 0;
+}
+.containertitle{
+    background-color: rgb(49, 135, 150);
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    text-align: right;
+}
+.containertitle h1{
+    margin: 0;
+    padding: 25px;
+    font-size: 45px;
+    font-weight: 100;
+    overflow-x: auto;
+}
+.result{
+    grid-row-start: 2;
+    grid-row-end: 6;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+button{
+    border: none;
+    padding: 22px;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.operator{
+background-color: rgb(222, 120, 120);
+color: white;
+font-size: 30px;
+}
+.reset{
+    background-color: rgb(206, 85, 85);
+    color: white;
+}
+button:hover{
+    background-color: rgb(183, 106, 132);
+}
+.reset:hover{
+    background-color: rgb(234, 154, 154);
+}
+.result{
+    background-color: rgb(21, 165, 21);
+}
+.result:hover{
+    background-color: lightgreen;
+}
